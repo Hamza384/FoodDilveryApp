@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MyMainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_Signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Successfull"
+        android:textSize="@dimen/_18ssp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/main_color"
+        android:fontFamily="@font/lobster"/>
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_below="@+id/tv_Signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to foody"
+        android:textSize="@dimen/_22ssp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/main_color"
+        android:fontFamily="@font/lobster"/>
+
+
+</RelativeLayout>
